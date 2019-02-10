@@ -1,0 +1,29 @@
+
+//Basic TS variable declaration stuff
+let - cannot be redeclared can be re assigned
+example- let a =10; can be assigned again as a=20 but cannot be initialized again by saying let a=30;
+const- a variable which cannot be manipulated in any way
+function- 
+showHide(): void{
+        this.showTable = !this.showTable;
+}
+
+
+//Structural Directives
+ngIf and ngFor
+
+//Bindings
+one way  binding
+--Data binding  {{}} - for a tag
+--Property binding [] - for an attribute like img src
+--Event Binding () - for clikc events takes in function as the value
+two way  binding [()]
+
+
+//ngModel- 
+***** Most Imp- HTML cannot understand ngModel-  In order for it to understand we need to import forms module
+
+Used for sending data to Ts - Binding a html tag with a two way binding 
+declaration so that it goes in to grab the appropriate data it wants from TS. 
+
+//Pipes- Run time manipulation changing button name etc..
